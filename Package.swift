@@ -6,6 +6,14 @@ import PackageDescription
 
 let package = Package(
     name: "CNMSSH",
+    platforms: [.iOS(.v10)],
+    products: [
+        // Products define the executables and libraries a package produces, and make them visible to other packages.
+        .library(
+            name: "CNMSSH",
+            targets: ["CNMSSH"]
+        ),
+    ],
     dependencies: [
         .package(name: "CSSH", url: "https://github.com/jakeheis/CSSH", .branch("master"))
     ]
