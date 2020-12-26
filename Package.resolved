@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "CSSH",
+        "repositoryURL": "https://github.com/jakeheis/CSSH",
+        "state": {
+          "branch": "master",
+          "revision": "579a20508ab598f78713a60fed95706efd06bbcb",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
